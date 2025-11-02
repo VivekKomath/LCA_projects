@@ -28,11 +28,14 @@ def biodiesel_raw_materials(required_kg_biodiesel):
 
 raw_materials_df = pd.read_csv('raw_material_emissions.csv', index_col='Component',encoding='utf-8-sig')
 raw_materials_df.insert(0, 'Value', 0)
+raw_materials_df['Value'] = raw_materials_df['Value'].astype(float)
 
 utilities_df = pd.read_csv('utility_emissions.csv', index_col='Component', encoding='utf-8-sig')
 utilities_df.insert(0, 'Value', 0)
+utilities_df['Value'] = utilities_df['Value'].astype(float)
 
 products_df = pd.DataFrame(columns=raw_materials_df.columns)
+products_df['Value'] = products_df['Value'].astype(float)
 
 
 
@@ -57,6 +60,8 @@ products_df.loc['Glycerol'] = mass_results_glycerol
 products_df.at['Biodiesel', 'Value'] = required_kg_biodiesel
 products_df.at['Glycerol', 'Value'] = mass_glycerol
 
+products_df.rename(columns={'Value': 'Value (kg)'}, inplace=True)
+
 products_df.at['Biodiesel', 'Cost (USD)'] = 1.4
 products_df.at['Glycerol', 'Cost (USD)'] = 1
 
@@ -64,3 +69,4 @@ products_df.at['Glycerol', 'Cost (USD)'] = 1
 
 print("--- Allocated Emissions for Products ---")
 print(products_df)
+print('Need to implement utilities, transport, energy and alternative solutions.')
