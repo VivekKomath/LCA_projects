@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c98539c-746c-4fde-b04f-794eb1e33816" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9c98539c-746c-4fde-b04f-794eb1e33816" name="Changes" comment="Bio-diesel production. Need to implement utilities, transport and energy. Need to implement alternatives.">
       <change beforePath="$PROJECT_DIR$/Biodiesel_production.py" beforeDir="false" afterPath="$PROJECT_DIR$/Biodiesel_production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/energy_emissions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/energy_emissions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_material_emissions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/raw_material_emissions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility_emissions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/utility_emissions.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762104551228</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bio-diesel production. Need to implement utilities, transport and energy. Need to implement alternatives.">
+      <option name="closed" value="true" />
+      <created>1762107461504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762107461504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +134,8 @@
     <MESSAGE value="first push" />
     <MESSAGE value="second push" />
     <MESSAGE value="csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="csv" />
+    <MESSAGE value="Bio-diesel production. Need to implement utilities, transport and energy. Need to implement alternatives." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bio-diesel production. Need to implement utilities, transport and energy. Need to implement alternatives." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LCA_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1762002222133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
